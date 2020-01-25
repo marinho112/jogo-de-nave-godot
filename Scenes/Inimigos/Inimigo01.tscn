@@ -1,0 +1,72 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://scripts/Inimigos/Inimigo01.gd" type="Script" id=1]
+[ext_resource path="res://PNG/Enemies/enemyBlack1.png" type="Texture" id=2]
+[ext_resource path="res://PNG/Effects/Explosion.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/Animacoes/explosao_inimigo_nava.tres" type="Animation" id=4]
+[ext_resource path="res://sounds/Explosion_inimigo.wav" type="AudioStream" id=5]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+
+[sub_resource type="Animation" id=2]
+resource_name = "inicial"
+tracks/0/type = "value"
+tracks/0/path = NodePath("../Sprite:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[node name="Inimigo01" type="Area2D"]
+script = ExtResource( 1 )
+vida = 5
+pontuacao = 15
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 2 )
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+visible = false
+rotation = 3.14159
+scale = Vector2( 4, 4 )
+shape = SubResource( 1 )
+
+[node name="Position" type="Position2D" parent="."]
+position = Vector2( 0, 50 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.5
+autostart = true
+
+[node name="Explosion" type="Sprite" parent="."]
+texture = ExtResource( 3 )
+hframes = 12
+frame = 11
+
+[node name="anim" type="AnimationPlayer" parent="Explosion"]
+anims/explosao = ExtResource( 4 )
+anims/inicial = SubResource( 2 )
+
+[node name="som" type="AudioStreamPlayer" parent="Explosion"]
+stream = ExtResource( 5 )
+pitch_scale = 0.3
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

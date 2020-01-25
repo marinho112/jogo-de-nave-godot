@@ -1,0 +1,1896 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://PNG/Effects/star1.png" type="Texture" id=1]
+[ext_resource path="res://scripts/Estrela.gd" type="Script" id=2]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="Estrelas" type="ParallaxLayer" parent="."]
+editor/display_folded = true
+motion_mirroring = Vector2( 0, 1440 )
+
+[node name="Estrela87" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela164" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela128" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela160" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela88" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela148" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela122" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela131" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela89" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela132" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela109" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela168" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela90" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela135" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela112" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela169" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela91" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela142" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela118" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela136" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela92" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela143" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela119" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela156" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela93" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela141" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela117" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela155" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela94" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela149" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela123" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela158" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela95" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela147" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela121" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela157" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela96" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela138" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela114" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela154" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela97" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela144" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela120" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela146" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela98" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela139" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela115" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela145" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela99" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela133" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela110" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela166" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela100" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela150" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela124" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela159" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela101" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela130" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela108" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela165" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela102" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela140" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela116" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela129" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela103" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela151" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela125" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela162" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela104" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela137" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela113" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela170" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela105" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela152" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela126" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela163" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela106" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela134" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela111" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela167" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela107" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela153" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela127" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela161" type="Sprite" parent="Estrelas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrelinhas" type="ParallaxLayer" parent="."]
+editor/display_folded = true
+position = Vector2( 432.749, 0 )
+motion_scale = Vector2( 1, 0.33 )
+motion_mirroring = Vector2( 0, 1440 )
+
+[node name="Estrela87" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela159" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela121" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela152" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela88" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela161" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela123" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela154" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela89" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela165" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela127" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela169" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela90" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela160" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela122" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela153" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela91" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela166" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela128" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela170" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela92" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela163" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela125" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela167" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela93" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela158" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela120" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela151" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela94" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela162" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela124" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela155" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela95" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela164" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela126" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela168" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela96" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela134" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela113" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela143" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela97" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela139" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela118" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela149" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela98" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela130" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela109" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela150" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela99" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela136" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela115" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela145" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela100" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela131" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela110" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela141" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela101" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela135" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela114" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela144" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela102" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela132" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela111" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela142" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela103" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela138" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela117" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela148" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela104" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela137" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela116" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela147" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela105" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela129" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela108" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela146" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela106" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela140" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela119" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela156" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela107" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela133" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela112" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela157" type="Sprite" parent="Estrelinhas"]
+position = Vector2( -318.798, 394.614 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrelinhazinhas" type="ParallaxLayer" parent="."]
+motion_scale = Vector2( 1, 0.1 )
+motion_mirroring = Vector2( 0, 1440 )
+
+[node name="Estrela62" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela112" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela87" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela138" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela63" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela126" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela101" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela144" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela64" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela128" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela103" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela158" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela65" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela136" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela111" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela154" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela66" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela124" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela99" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela141" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela67" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela130" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela105" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela156" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela68" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela133" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela108" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela160" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela69" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela127" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela102" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela145" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela70" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela125" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela100" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela143" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela71" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela129" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela104" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela155" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela72" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela132" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela107" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela159" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela73" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela131" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela106" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela157" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela74" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela134" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela109" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela161" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela75" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela135" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela110" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela153" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela76" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela123" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela98" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela150" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela77" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela116" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela91" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela142" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela78" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela120" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela95" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela149" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela79" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela119" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela94" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela148" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela80" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela118" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela93" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela147" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela81" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela117" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela92" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela151" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela82" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela113" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela88" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela139" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela83" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela121" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela96" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela152" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela84" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela122" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela97" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela140" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela85" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela115" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela90" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela146" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 113.951, 394.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela86" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 300, 485.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela114" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 300, 485.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela89" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 300, 485.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )
+
+[node name="Estrela137" type="Sprite" parent="Estrelinhazinhas"]
+position = Vector2( 300, 485.614 )
+scale = Vector2( 0.3, 0.3 )
+texture = ExtResource( 1 )
+offset = Vector2( -44.11, -50.0145 )
+script = ExtResource( 2 )

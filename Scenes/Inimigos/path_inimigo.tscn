@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Path/inimigos/zigzage.tres" type="Curve2D" id=1]
+[ext_resource path="res://scripts/Inimigos/path_inimigo.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/Inimigos/Inimigo01.tscn" type="PackedScene" id=3]
+
+[node name="path_inimigo" type="Path2D"]
+curve = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="follow" type="PathFollow2D" parent="."]
+position = Vector2( 11.0884, 4.59201 )
+rotate = false
+
+[node name="Inimigo01" parent="follow" instance=ExtResource( 3 )]

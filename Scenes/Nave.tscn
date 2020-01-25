@@ -1,0 +1,189 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://scripts/Nave.gd" type="Script" id=1]
+[ext_resource path="res://PNG/playerShip1_blue.png" type="Texture" id=2]
+[ext_resource path="res://PNG/Parts/gun00.png" type="Texture" id=3]
+[ext_resource path="res://PNG/Parts/gun09.png" type="Texture" id=4]
+[ext_resource path="res://PNG/Parts/gun10.png" type="Texture" id=5]
+[ext_resource path="res://PNG/Effects/shield3.png" type="Texture" id=6]
+[ext_resource path="res://PNG/Effects/Explosion.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/Animacoes/explosao_inimigo_nava.tres" type="Animation" id=8]
+[ext_resource path="res://sounds/Explosion_inimigo.wav" type="AudioStream" id=9]
+
+[sub_resource type="GDScript" id=1]
+resource_name = "escudo"
+script/source = "extends Area2D
+
+func _ready():
+	pass
+	
+func _on_Escudo_area_entered(area):
+	
+	if is_visible() && area.is_in_group(game.GRUPO_INIMIGO):
+		area.aplicaDano(1000)
+	if is_visible() && area.is_in_group(game.GRUPO_TIRO_INIMIGO):
+		area.queue_free()
+	pass
+	
+func ativa_escudo(tempo):
+	get_node(\"Timer\").set_wait_time(tempo)
+	get_node(\"Timer\").start()
+	get_node(\"anim\").play(\"escudo\")
+
+
+func _on_Timer_timeout():
+	get_node(\"anim\").stop(true)
+	set_visible(false)
+	pass 
+	
+
+
+
+func _on_anim_animation_started(anim_name):
+	ativa_escudo(get_owner().duracao_escudo)
+	pass 
+"
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 70.6146
+
+[sub_resource type="Animation" id=3]
+length = 0.4
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.2, 1.2 ), Vector2( 1.1, 1.1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0.0156863, 1, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "dano"
+tracks/0/type = "value"
+tracks/0/path = NodePath("..:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="nave" type="Area2D"]
+scale = Vector2( 0.7, 0.7 )
+script = ExtResource( 1 )
+
+[node name="corpoDaNave" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="canhaoDI" type="Sprite" parent="."]
+visible = false
+position = Vector2( 25, -8 )
+rotation = 3.14159
+texture = ExtResource( 3 )
+
+[node name="canhaoEI" type="Sprite" parent="."]
+visible = false
+position = Vector2( -25, -8 )
+rotation = 3.14159
+texture = ExtResource( 3 )
+
+[node name="canhaoE" type="Sprite" parent="."]
+visible = false
+position = Vector2( -48, -1 )
+texture = ExtResource( 4 )
+flip_v = true
+
+[node name="canhaoD" type="Sprite" parent="."]
+visible = false
+position = Vector2( 48, -1 )
+texture = ExtResource( 5 )
+flip_v = true
+
+[node name="posicaoCanhaoE" type="Position2D" parent="."]
+position = Vector2( -45, -29 )
+
+[node name="posicaoCanhaoEI" type="Position2D" parent="."]
+position = Vector2( -25, -25 )
+
+[node name="posicaoCanhaoDI" type="Position2D" parent="."]
+position = Vector2( 25, -25 )
+
+[node name="posicaoCanhaoD" type="Position2D" parent="."]
+position = Vector2( 45, -29 )
+
+[node name="posicaoCanhaoC" type="Position2D" parent="."]
+position = Vector2( 0, -40 )
+
+[node name="Collision" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PoolVector2Array( -9.86836, -37.8684, -13.5747, -11.924, -36.276, 1.51139, -38.1291, -0.805061, -39.0557, -20.2633, -40.9089, -22.5798, -41.3721, -27.2127, -47.8582, -27.2127, -49.2481, -23.9696, -49.2481, -21.1899, -53.881, -15.1671, -57.1241, -15.1671, -56.6608, 6.1443, -58.5139, 6.1443, -58.0506, 24.6759, -38.1291, 24.6759, -14.5013, 27.919, -7.08861, 38.5747, 6.81013, 38.1114, 13.7595, 27.4557, 35.5342, 23.7494, 57.7721, 25.1392, 58.6987, 6.6076, 56.8456, -13.3139, 50.3595, -20.7266, 49.8962, -27.2127, 42.0202, -27.676, 40.1671, -19.3367, 39.7038, 0.121513, 34.6076, -0.805061, 13.2962, -12.3873, 8.66328, -38.7949 )
+
+[node name="Escudo" type="Area2D" parent="."]
+visible = false
+scale = Vector2( 1.1, 1.1 )
+script = SubResource( 1 )
+
+[node name="Collision" type="CollisionShape2D" parent="Escudo"]
+shape = SubResource( 2 )
+
+[node name="shield3" type="Sprite" parent="Escudo"]
+modulate = Color( 0.414662, 0.423844, 1, 1 )
+scale = Vector2( 0.958534, 0.958534 )
+texture = ExtResource( 6 )
+
+[node name="anim" type="AnimationPlayer" parent="Escudo"]
+anims/escudo = SubResource( 3 )
+
+[node name="Timer" type="Timer" parent="Escudo"]
+
+[node name="Explosion" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 1.7, 1.7 )
+texture = ExtResource( 7 )
+hframes = 12
+
+[node name="anim" type="AnimationPlayer" parent="Explosion"]
+anims/dano = SubResource( 4 )
+anims/explosao = ExtResource( 8 )
+
+[node name="som" type="AudioStreamPlayer" parent="Explosion"]
+stream = ExtResource( 9 )
+pitch_scale = 0.3
+[connection signal="area_entered" from="." to="." method="_on_nave_area_entered"]
+[connection signal="area_entered" from="Escudo" to="Escudo" method="_on_Escudo_area_entered"]
+[connection signal="timeout" from="Escudo/Timer" to="Escudo" method="_on_Timer_timeout"]
+[connection signal="animation_started" from="Explosion/anim" to="Escudo" method="_on_anim_animation_started"]

@@ -1,0 +1,250 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://Scenes/Inimigos/inimigo_spawner.tscn" type="PackedScene" id=1]
+[ext_resource path="res://PNG/PixelBranco.png" type="Texture" id=2]
+[ext_resource path="res://fonts/pausa.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Scenes/meteor_spawner.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Nave.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/Cenarios/espaco.tscn" type="PackedScene" id=6]
+[ext_resource path="res://fonts/font_score.tres" type="DynamicFont" id=7]
+[ext_resource path="res://PNG/playerShip1_blue.png" type="Texture" id=8]
+[ext_resource path="res://Scenes/upGrade/UpGrade_spawner.tscn" type="PackedScene" id=9]
+
+[sub_resource type="GDScript" id=1]
+resource_name = "main"
+script/source = "extends CanvasLayer
+
+
+func _ready():
+	set_process(true)
+	pass 
+
+func _process(delta):
+	if (game.parado) && (!get_node(\"inimigo_spawner/Timer\").is_stopped()) :
+		get_node(\"inimigo_spawner/Timer\").stop()
+		get_node(\"meteor_spawner/Timer\").stop()
+		get_node(\"UpGrade_spawner/Timer\").stop()
+	elif (!game.parado) && (get_node(\"inimigo_spawner/Timer\").is_stopped()) :
+		get_node(\"inimigo_spawner/Timer\").start()
+		get_node(\"meteor_spawner/Timer\").start()
+		get_node(\"UpGrade_spawner/Timer\").start()"
+
+[sub_resource type="GDScript" id=2]
+script/source = "extends CanvasLayer
+
+
+func _ready():
+	set_process_input(true)
+	pass 
+
+func _input(event):
+	if event.is_action_pressed(\"pause\") && !event.is_echo():
+		get_tree().set_pause(!get_tree().is_paused())
+		get_node(\"LabelPause\").set_visible(get_tree().is_paused())
+		get_node(\"pretoBranco\").set_visible(get_tree().is_paused())
+		"
+
+[sub_resource type="Shader" id=3]
+code = "shader_type canvas_item;
+void fragment()
+{
+ vec4 color = textureLod(SCREEN_TEXTURE, SCREEN_UV, 0.0);
+ COLOR.rgb = vec3(dot(color.rgb, vec3(0.5,0.5,0.5)));
+}"
+
+[sub_resource type="ShaderMaterial" id=4]
+shader = SubResource( 3 )
+
+[sub_resource type="GDScript" id=5]
+script/source = "extends Camera2D
+
+var vel = 150
+var shake = 0
+
+func _ready():
+	set_process(true)
+	pass 
+
+func _process(delta):
+	set_offset(get_offset() + Vector2(0,-1) * vel * delta)
+	
+	if shake > 0:
+		set_position(Vector2(cos(rad2deg(shake)),sin(rad2deg(shake)))*3)
+		shake-=delta
+	else:
+		set_position(Vector2(0,0))
+	pass
+	
+func shake():
+	shake= 0.3"
+
+[sub_resource type="GDScript" id=6]
+script/source = "extends Label
+
+
+func _ready():
+	game.connect(\"score_changed\",self,\"_on_score_changed\")
+	pass 
+
+func _on_score_changed():
+	var string = str(game.score)
+	while string.length() < 10:
+		string = \"0\" + string
+	set_text(string)
+"
+
+[sub_resource type="GDScript" id=7]
+script/source = "extends Label
+var tempo = 0
+var antigo_tempo = 0
+var string = \"00:00:00\"
+
+func _ready():
+	set_process(true)
+	pass 
+	
+func _process(delta):
+	tempo+= delta
+	if((tempo-antigo_tempo) > 0.01):
+		antigo_tempo=tempo
+		set_text(tempo_em_string(tempo))
+	
+	pass
+
+func tempo_em_string(tempo):
+	
+	var minutos = int(tempo) / 60
+	var segundos = int(tempo) % 60
+	var horas = minutos / 60  
+	minutos-= horas*60
+	var s_horas=str(horas)
+	var s_minutos=str(minutos)
+	var s_segundos=str(segundos)
+	
+	if s_horas.length() <2:
+		s_horas = \"0\"+s_horas
+		
+	if s_minutos.length() <2:
+		s_minutos = \"0\"+s_minutos
+		
+	if s_segundos.length() <2:
+		s_segundos = \"0\"+s_segundos
+	
+	var string= s_horas+\":\"+s_minutos+\":\"+s_segundos
+	
+	return string
+	
+	"
+
+[sub_resource type="GDScript" id=8]
+script/source = "extends Node2D
+
+export(Texture) var textura
+
+func _ready():
+	game.connect(\"lifes_changed\",self,\"_on_lifes_changed\")
+	pass 
+	
+func _on_lifes_changed():
+	update()
+	pass
+	
+func _draw():
+	for n in range(0, game.lifes):
+		draw_texture(textura,Vector2(n * textura.get_width(), 0))
+	pass"
+
+[sub_resource type="GDScript" id=9]
+script/source = "extends Timer
+
+
+func _on_Timer_timeout():
+	
+	#set_wait_time(300)
+	game.dificuldade+=1
+	print(\"Dificuldade: \" + str(game.dificuldade))
+	start()
+	pass 
+	
+"
+
+[node name="main" type="CanvasLayer"]
+script = SubResource( 1 )
+
+[node name="inimigo_spawner" parent="." instance=ExtResource( 1 )]
+
+[node name="pauser" type="CanvasLayer" parent="."]
+pause_mode = 2
+editor/display_folded = true
+layer = 11
+script = SubResource( 2 )
+
+[node name="pretoBranco" type="TextureRect" parent="pauser"]
+visible = false
+material = SubResource( 4 )
+margin_right = 600.0
+margin_bottom = 480.0
+texture = ExtResource( 2 )
+expand = true
+
+[node name="LabelPause" type="Label" parent="pauser"]
+visible = false
+margin_left = 142.8
+margin_top = 209.441
+margin_right = 462.8
+margin_bottom = 260.441
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.027451, 0.239216, 0.964706, 1 )
+text = "Pausado"
+
+[node name="meteor_spawner" parent="." instance=ExtResource( 4 )]
+
+[node name="Camera" type="Camera2D" parent="."]
+anchor_mode = 0
+current = true
+script = SubResource( 5 )
+
+[node name="nave" parent="Camera" instance=ExtResource( 5 )]
+position = Vector2( 512, 620 )
+scale = Vector2( 1, 1 )
+
+[node name="ParallaxBackground" parent="." instance=ExtResource( 6 )]
+
+[node name="HUD" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="Score" type="Label" parent="HUD"]
+margin_left = 717.0
+margin_top = 19.0
+margin_right = 961.0
+margin_bottom = 59.0
+custom_fonts/font = ExtResource( 7 )
+custom_colors/font_color = Color( 0.909804, 1, 0.101961, 1 )
+text = "0000000000"
+align = 2
+script = SubResource( 6 )
+
+[node name="Timer" type="Label" parent="HUD"]
+margin_left = 769.912
+margin_top = 53.5858
+margin_right = 957.912
+margin_bottom = 104.586
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_constants/line_spacing = 2
+text = "00:00:00"
+script = SubResource( 7 )
+
+[node name="lifes" type="Node2D" parent="HUD"]
+position = Vector2( 22.2134, 22.2134 )
+scale = Vector2( 0.45, 0.45 )
+script = SubResource( 8 )
+textura = ExtResource( 8 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 45.0
+autostart = true
+script = SubResource( 9 )
+
+[node name="UpGrade_spawner" parent="." instance=ExtResource( 9 )]
+[connection signal="timeout" from="Timer" to="Timer" method="_on_Timer_timeout"]
